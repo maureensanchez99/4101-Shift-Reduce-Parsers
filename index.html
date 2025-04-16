@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sketch</title>
+    <title>Shift Reduce Parsers</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -13,6 +13,14 @@
   </head>
 
   <body>
+    <h2>Shift Reduce Parser</h2>
+    <div class="content">
+      <label for="inputExpression">Enter expression (ex. id + id * id): </label>
+      <br>
+      <input type="text" id="inputExpression" placeholder="id + id * id"/>
+      <button onclick="parse()">Parse expression</button>
+      <div id="output"></div>
+    </div>
     <script src="sketch.js"></script>
   </body>
 </html>

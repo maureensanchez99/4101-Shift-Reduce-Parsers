@@ -1,6 +1,31 @@
 html, body {
+  font-family: 'Times New Roman', Times, serif;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  background-color: blueviolet;
+}
+
+.content {
+  text-align: center;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 6px;
+  width: 250px;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: greenyellow;
 }
 
 canvas {
